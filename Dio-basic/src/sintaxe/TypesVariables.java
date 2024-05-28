@@ -2,7 +2,8 @@ package sintaxe;
 
 public class TypesVariables {
 	public static void main(String[] args) {
-		
+	
+	char umCaractere = 'F';	
 	byte meuBite = 100;
 	short meuShort = 30142;
 	int meuinteiro = 254165;
@@ -12,6 +13,7 @@ public class TypesVariables {
 	String meuTexto = "Minha string é um texto";
 	final double PI =  3.1416;
 	
+	System.out.println(umCaractere);
 	System.out.println(meuBite);
 	System.out.println(meuShort);
 	System.out.println(meuinteiro);
